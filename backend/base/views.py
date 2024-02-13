@@ -16,8 +16,8 @@ def get_routes(request):
 
         'products/top'
 
-        'products/<id>',
-        'products/<id>/reviews',
+        'product/<id>',
+        'product/<id>/reviews',
         
         'products/delete/<id>'
         'products/<update>/<id>'
